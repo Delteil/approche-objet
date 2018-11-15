@@ -21,7 +21,7 @@ public class TestPersonne {
 		 */
 
 		Personne personne2 = new Personne("Tasselli", "Laurence");
-
+		personne2.adresse = new AdressePostal(334, "chemin des Plantades", 34150, "Saint Jean de Fos");
 		/*
 		 * personne2.nom = "Tasselli"; personne2.prenom = "Laurence";
 		 */
