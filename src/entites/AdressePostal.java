@@ -21,7 +21,7 @@ public class AdressePostal {
 	public int codePostal = 0;
 	public String ville = "";
 
-	// Création du constructeur
+	// TP2 - Création du constructeur
 
 	public AdressePostal(int numeroRue, String nomRue, int codePostal, String ville) {
 		this.numeroRue = numeroRue;
