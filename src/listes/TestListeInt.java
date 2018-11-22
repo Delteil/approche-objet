@@ -96,6 +96,12 @@ public class TestListeInt {
 		// Rechercher tous les éléments négatifs et les modifier pour qu'ils deviennent
 		// positifs
 
-	}
+		for (Integer elem : listeInt) {
 
+			if (elem < 0) {
+				listeInt.set(listeInt.indexOf(elem), -elem); // négatif du négatif = positif
+			}
+		}
+		System.out.println(listeInt);
+	}
 }
