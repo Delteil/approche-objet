@@ -24,6 +24,7 @@ public class TestSetDouble {
 
 		HashSet<Double> set = new HashSet<Double>();
 
+	// méthode d'ajour un à un
 		set.add(1.5);
 		set.add(8.25);
 		set.add(-7.25);
@@ -32,7 +33,18 @@ public class TestSetDouble {
 		set.add(48.5);
 		set.add(0.01);
 
-		System.out.println(set);
+		
+	//méthode d'ajout d'un coup
+		
+		//set.add(new Double(1.5, 8.25, -7.32, 13.3, -12.45, 48.5, 0.01));
+		
+		//Iterator<Double> it = set.iterator(); // on crée un Iterator pour parcourir notre HashSet
+		//while (it.hasNext()) { // tant qu'on a un suivant
+		
+			//System.out.println(it.next());
+		//}
+		
+		//System.out.println(set);
 		System.out.println();
 
 		// Recherchez le plus grand élément de la collection
